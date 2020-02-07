@@ -43,9 +43,11 @@ div.text{
     font-size: 1rem;
     margin-top: 0.8vh;
     vertical-align: text-bottom;
-    /* display: flex; */
-    word-wrap: break-word;
-
+    /* word-wrap: break-word; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
 }
 #display-text {
     margin: 0.5vw;
